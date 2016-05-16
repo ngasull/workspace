@@ -10,7 +10,7 @@ atom.document.body.classList.remove("platform-linux")
 atom.document.body.classList.add("platform-darwin")
 
 atom.keymaps.removeBindingsFromSource("/opt/atom/resources/app.asar/keymaps/linux.json")
-atom.keymaps.loadKeymap(require.resolve("./keymap-darwin.cson"), { priority: 0 })
+atom.keymaps.loadKeymap(require.resolve("./darwin.cson"), { priority: 0 })
 EOF
 ```
 
